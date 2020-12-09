@@ -1094,3 +1094,57 @@ ewweb\src\main\webappesources/resources" failed (123: The filename, directory n
 2020/11/20 16:10:22 [error] 30548#32704: *1 CreateFile() "E:\nginx-1.18.0/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:23262", referrer: "http://localhost:23262/myfams/rest/organization/login/web/menuData"
 2020/11/20 17:17:34 [emerg] 22284#20056: CreateFile() "E:/nginx-1.18.0/conf/demo/websocket.demo.nginx.conf" failed (2: The system cannot find the file specified) in E:\nginx-1.18.0/conf/nginx.conf:120
 2020/12/04 11:05:52 [error] 11328#21588: *1 CreateFile() "E:\nginx-1.18.0/html/favicon.ico" failed (2: The system cannot find the file specified), client: 192.168.1.52, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.52:81", referrer: "http://192.168.1.52:81/"
+2020/12/09 17:43:38 [emerg] 12892#23172: unknown "mainservice" variable
+2020/12/09 17:44:04 [emerg] 13152#25012: unknown "mainservice" variable
+2020/12/09 17:44:19 [emerg] 26264#21708: unknown "mainservice" variable
+2020/12/09 17:44:43 [emerg] 10540#29904: unknown "mainservice" variable
+2020/12/09 17:45:29 [emerg] 22328#27804: unknown "mainservice" variable
+2020/12/09 17:49:32 [emerg] 33024#12868: unknown directive "set_by_lua" in E:/nginx-1.18.0/conf/myfams.nginx.conf:4
+2020/12/09 17:49:56 [emerg] 21172#21432: unknown directive "set_by_lua" in E:\nginx-1.18.0/conf/nginx.conf:12
+2020/12/09 17:52:57 [emerg] 5020#30188: directive "root" is not terminated by ";" in E:/nginx-1.18.0/conf/myfams.nginx.conf:10
+2020/12/09 17:53:50 [emerg] 31432#12364: directive "root" is not terminated by ";" in E:/nginx-1.18.0/conf/myfams.nginx.conf:10
+2020/12/09 17:55:09 [emerg] 33404#13296: unknown "mainservice" variable
+2020/12/09 17:56:06 [emerg] 22592#2680: unknown "mainservice" variable
+2020/12/09 17:56:24 [emerg] 26052#11340: invalid URL prefix in E:/nginx-1.18.0/conf/myfams.nginx.conf:17
+2020/12/09 18:01:38 [emerg] 20784#29820: directive "root" is not terminated by ";" in E:/nginx-1.18.0/conf/myfams.nginx.conf:10
+2020/12/09 18:02:12 [emerg] 26380#704: unexpected "m" in E:/nginx-1.18.0/conf/myfams.nginx.conf:10
+2020/12/09 18:02:24 [emerg] 30908#22188: unexpected "m" in E:/nginx-1.18.0/conf/myfams.nginx.conf:10
+2020/12/09 18:02:52 [emerg] 12232#31804: unknown "env" variable
+2020/12/09 18:06:21 [emerg] 36412#32956: "set" directive is not allowed here in E:/nginx-1.18.0/conf/myfams.nginx.conf:8
+2020/12/09 18:06:36 [emerg] 14016#5112: "set" directive is not allowed here in E:\nginx-1.18.0/conf/nginx.conf:15
+2020/12/09 18:07:31 [emerg] 14828#24248: invalid number of arguments in "set" directive in E:/nginx-1.18.0/conf/myfams.nginx.conf:14
+2020/12/09 18:07:59 [emerg] 3500#12868: "set" directive is not allowed here in E:\nginx-1.18.0/conf/nginx.conf:16
+2020/12/09 18:08:18 [emerg] 1372#11372: directive "set" is not terminated by ";" in E:/nginx-1.18.0/conf/myfams.nginx.conf:12
+2020/12/09 18:08:35 [emerg] 384#21008: invalid variable name "mainservice" in E:/nginx-1.18.0/conf/myfams.nginx.conf:9
+2020/12/09 18:10:43 [error] 35736#4244: *1 no resolver defined to resolve localhost, client: 192.168.1.52, server: , request: "POST /myfams/rest/organization/tableInfo/web/querySearch HTTP/1.1", host: "192.168.1.52:10003", referrer: "http://192.168.1.52:10003/"
+2020/12/09 18:10:43 [error] 35736#4244: *2 no resolver defined to resolve localhost, client: 192.168.1.52, server: , request: "GET /myfams/rest/organization/login/web/menuData HTTP/1.1", host: "192.168.1.52:10003", referrer: "http://192.168.1.52:10003/"
+2020/12/09 18:10:43 [error] 35736#4244: *3 no resolver defined to resolve localhost, client: 192.168.1.52, server: , request: "POST /myfams/rest/organization/user/web/queryPermissions HTTP/1.1", host: "192.168.1.52:10003", referrer: "http://192.168.1.52:10003/"
+2020/12/09 18:10:43 [error] 35736#4244: *4 no resolver defined to resolve localhost, client: 192.168.1.52, server: , request: "POST /myfams/rest/parameter/recrutiment/web/querySetCodeByUserId HTTP/1.1", host: "192.168.1.52:10003", referrer: "http://192.168.1.52:10003/"
+2020/12/09 18:10:43 [error] 35736#4244: *5 no resolver defined to resolve localhost, client: 192.168.1.52, server: , request: "POST /myfams/rest/organization/user/web/queryPostUser HTTP/1.1", host: "192.168.1.52:10003", referrer: "http://192.168.1.52:10003/"
+2020/12/09 18:10:43 [error] 35736#4244: *3 no resolver defined to resolve localhost, client: 192.168.1.52, server: , request: "GET /myfams/rest/organization/login/web/queryVersionDesc HTTP/1.1", host: "192.168.1.52:10003", referrer: "http://192.168.1.52:10003/"
+2020/12/09 18:10:43 [error] 35736#4244: *4 no resolver defined to resolve localhost, client: 192.168.1.52, server: , request: "GET /myfams/rest/organization/user/web/getUserInfoById HTTP/1.1", host: "192.168.1.52:10003", referrer: "http://192.168.1.52:10003/"
+2020/12/09 18:10:43 [error] 35736#4244: *5 no resolver defined to resolve localhost, client: 192.168.1.52, server: , request: "POST /myfams/rest/parameter/messagemanage/web/queryValidMessage HTTP/1.1", host: "192.168.1.52:10003", referrer: "http://192.168.1.52:10003/"
+2020/12/09 18:10:50 [error] 35736#4244: *5 no resolver defined to resolve localhost, client: 192.168.1.52, server: , request: "POST /myfams/rest/organization/login/web/logout HTTP/1.1", host: "192.168.1.52:10003", referrer: "http://192.168.1.52:10003/"
+2020/12/09 18:10:54 [error] 35736#4244: *5 no resolver defined to resolve localhost, client: 192.168.1.52, server: , request: "POST /myfams/rest/organization/login/web/login HTTP/1.1", host: "192.168.1.52:10003", referrer: "http://192.168.1.52:10003/"
+2020/12/09 18:20:37 [error] 24816#4000: *6 no resolver defined to resolve localhost, client: 192.168.1.52, server: , request: "OPTIONS /myfams/rest/parameter/recrutiment/web/querySetCodeByUserId HTTP/1.1", host: "192.168.1.52:10003", referrer: "http://localhost:10003/"
+2020/12/09 18:20:37 [error] 24816#4000: *7 no resolver defined to resolve localhost, client: 192.168.1.52, server: , request: "OPTIONS /myfams/rest/organization/tableInfo/web/querySearch HTTP/1.1", host: "192.168.1.52:10003", referrer: "http://localhost:10003/"
+2020/12/09 18:20:37 [error] 24816#4000: *8 no resolver defined to resolve localhost, client: 192.168.1.52, server: , request: "OPTIONS /myfams/rest/organization/user/web/queryPostUser HTTP/1.1", host: "192.168.1.52:10003", referrer: "http://localhost:10003/"
+2020/12/09 18:20:37 [error] 24816#4000: *9 no resolver defined to resolve localhost, client: 192.168.1.52, server: , request: "OPTIONS /myfams/rest/organization/login/web/menuData HTTP/1.1", host: "192.168.1.52:10003", referrer: "http://localhost:10003/"
+2020/12/09 18:20:37 [error] 24816#4000: *10 no resolver defined to resolve localhost, client: 192.168.1.52, server: , request: "OPTIONS /myfams/rest/organization/login/web/queryVersionDesc HTTP/1.1", host: "192.168.1.52:10003", referrer: "http://localhost:10003/"
+2020/12/09 18:20:37 [error] 24816#4000: *6 no resolver defined to resolve localhost, client: 192.168.1.52, server: , request: "OPTIONS /myfams/rest/organization/user/web/queryPermissions HTTP/1.1", host: "192.168.1.52:10003", referrer: "http://localhost:10003/"
+2020/12/09 18:20:37 [error] 24816#4000: *9 no resolver defined to resolve localhost, client: 192.168.1.52, server: , request: "OPTIONS /myfams/rest/parameter/messagemanage/web/queryValidMessage HTTP/1.1", host: "192.168.1.52:10003", referrer: "http://localhost:10003/"
+2020/12/09 18:20:37 [error] 24816#4000: *10 no resolver defined to resolve localhost, client: 192.168.1.52, server: , request: "OPTIONS /myfams/rest/organization/user/web/getUserInfoById HTTP/1.1", host: "192.168.1.52:10003", referrer: "http://localhost:10003/"
+2020/12/09 18:20:41 [error] 24816#4000: *12 CreateFile() "E:\nginx-1.18.0/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:10001", referrer: "http://localhost:10001/"
+2020/12/09 18:22:45 [notice] 23004#23820: signal process started
+2020/12/09 18:22:45 [error] 23004#23820: OpenEvent("Global\ngx_reload_24200") failed (2: The system cannot find the file specified)
+2020/12/09 18:22:49 [notice] 7248#25468: signal process started
+2020/12/09 18:22:49 [error] 7248#25468: OpenEvent("Global\ngx_reload_24200") failed (2: The system cannot find the file specified)
+2020/12/09 18:23:02 [notice] 34208#27544: signal process started
+2020/12/09 18:25:21 [notice] 10012#31156: signal process started
+2020/12/09 18:25:21 [error] 10012#31156: OpenEvent("Global\ngx_stop_22580") failed (2: The system cannot find the file specified)
+2020/12/09 18:25:33 [notice] 29236#21408: signal process started
+2020/12/09 18:25:33 [error] 29236#21408: OpenEvent("Global\ngx_stop_31456") failed (2: The system cannot find the file specified)
+2020/12/09 18:25:38 [notice] 22580#17072: signal process started
+2020/12/09 18:27:29 [notice] 23624#30672: signal process started
+2020/12/09 18:27:34 [notice] 20136#33184: signal process started
+2020/12/09 18:27:34 [error] 20136#33184: CreateFile() "E:\nginx-1.18.0/logs/nginx.pid" failed (2: The system cannot find the file specified)
