@@ -12,5 +12,16 @@
 </head>
 <body>
 <h1>app2</h1>
+<script>
+    window.addEventListener('message', (ev) => {
+        console.log('正在跳转登录...');
+        const data = ev.data
+        const type = data.type
+        if (type === 'jump-login') {
+            window.location.href = '/myfams/#/login'
+        }
+    })
+</script>
+<iframe src="http://192.168.1.52:10003/myfams/login.html" frameborder="0"></iframe>
 </body>
 </html>
