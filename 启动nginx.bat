@@ -1,0 +1,1 @@
+@echo on & mkdir C:\myfams-env & cd /d c:\myfams-env\nginx-1.18.0 & mkdir temp & color a & nginx.exe | echo "Nginx is RUNNING!!" & pause
