@@ -1591,3 +1591,15 @@ ewweb\src\main\webappesources/resources" failed (123: The filename, directory n
 2020/12/10 18:00:28 [error] 628#12016: *1207 "E:\nginx-1.18.0/html/myfams/index.html" is not found (3: The system cannot find the path specified), client: 192.168.1.52, server: , request: "GET /myfams/ HTTP/1.1", host: "192.168.1.52:10001"
 2020/12/10 18:24:49 [notice] 15636#25648: signal process started
 2020/12/10 19:21:25 [notice] 33820#18540: signal process started
+2021/01/08 10:39:55 [emerg] 24256#25612: CreateFile() "E:/nginx-1.18.0/conf/myfams.nginx.conf" failed (3: The system cannot find the path specified) in E:\lp-workspace\work\nginx/conf/nginx.conf:134
+2021/01/08 10:42:08 [emerg] 34728#31388: CreateFile() "E:/nginx-1.18.0/conf/myfams.nginx.conf" failed (3: The system cannot find the path specified) in E:\lp-workspace\work\nginx/conf/nginx.conf:134
+2021/01/08 10:42:57 [emerg] 2836#32548: CreateFile() "E:/nginx-1.18.0/conf/myfams.nginx.conf" failed (3: The system cannot find the path specified) in E:\lp-workspace\work\nginx/conf/nginx.conf:134
+2021/01/08 10:45:48 [emerg] 23216#16628: CreateDirectory() "E:\lp-workspace\work\nginx/temp/client_body_temp" failed (3: The system cannot find the path specified)
+2021/01/08 10:46:22 [error] 22352#26480: *2 CreateFile() "E:\lp-workspace\work\nginx/html/favicon.ico" failed (2: The system cannot find the file specified), client: 192.168.1.37, server: , request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.37:10003", referrer: "http://192.168.1.37:10003/myfams/commonstatic/"
+2021/01/08 10:47:43 [notice] 34120#34580: signal process started
+2021/01/08 10:47:59 [notice] 24816#15772: signal process started
+2021/01/08 10:48:46 [notice] 18160#17368: signal process started
+2021/01/08 10:49:20 [notice] 27964#33480: signal process started
+2021/01/08 10:51:23 [notice] 33016#10800: signal process started
+2021/01/08 10:52:17 [notice] 9584#13068: signal process started
+2021/01/08 10:57:14 [emerg] 31884#12168: "set" directive is not allowed here in E:\lp-workspace\work\nginx/conf/nginx.conf:17
