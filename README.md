@@ -2,7 +2,7 @@
 
 ## 部署
 
-1. 双击执行 `部署之前执行使用管理员执行.bat`， 复制并输入 nginx 根目录 如：E:\lp-workspace\work\nginx1.18.0（注意：不能含有中文名或空格，目的：为了创建一个符号链接 C:\myfams-env\nginx-1.18.0）
+1. 双击执行 `部署之前执行使用管理员执行.bat`，~~复制并输入 nginx 根目录 如：E:\lp-workspace\work\nginx1.18.0（注意：不能含有中文名或空格，目的：为了创建一个符号链接 C:\myfams-env\nginx-1.18.0）~~
 2. 执行 `启动nginx.bat`, 即可启动，启动成功后关闭弹框
 
 ## 路径
