@@ -1,6 +1,7 @@
 @echo off
 mkdir C:\myfams-env
-set /p destion=请输入nginx 根目录（含目录名）：
+:set /p destion=Please input nginx 1.18.0 root path:
+set destion=%cd%
 set source=C:\myfams-env\nginx-1.18.0
 mklink /D "%source%" "%destion%"
-pause 成功
+pause successfully
